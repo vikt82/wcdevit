@@ -2,19 +2,17 @@
   <div id="app">
     <div class="page">
       <app-header/>
-      <div id="nav">
-        <router-link to="/">Home</router-link>|
-        <router-link to="/contact">Contact</router-link>
-      </div>
-      <router-view/>
+      <main>
+        <router-view/>
+      </main>
       <app-footer/>
     </div>
   </div>
 </template>
 
 <script>
-import AppHeader from "./components/HeaderComponent";
-import AppFooter from "./components/FooterComponent";
+import AppHeader from "./components/header/HeaderComponent";
+import AppFooter from "./components/footer/FooterComponent";
 
 export default {
   name: "App",
