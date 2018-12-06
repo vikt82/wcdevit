@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <footer>
         <h1>Footer: app-footer</h1>
-    </div>
+    </footer>
 </template>
 
 <script>
@@ -10,6 +10,6 @@
     }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+@import url(./footer.scss);
 </style>

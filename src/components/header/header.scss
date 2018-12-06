@@ -1,0 +1,25 @@
+header {
+    grid-area: header;
+
+    // background-color: rgba(255, 0, 0, .3);
+    .container {
+        display: flex;
+        
+        .logo {
+            margin-right: auto;
+            display: block;
+            // background-color: #f00;
+            height: 80px;
+            width: 80px;
+
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        nav {
+            border: 1px solid #000;
+        }
+    }
+}
