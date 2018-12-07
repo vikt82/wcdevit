@@ -1,18 +1,20 @@
 header {
     grid-area: header;
-    display: none;
+    background-color: var(--body-bg);
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .13);
+    position: fixed;
+    width: 100%;
 
-    // background-color: rgba(255, 0, 0, .3);
     .container {
-        padding: 8px 0;
+        padding: 10px 0;
         display: flex;
         align-items: center;
-        
+
         .logo {
             margin-right: auto;
             display: block;
-            height: 80px;
-            width: 80px;
+            height: 60px;
+            width: 60px;
 
             img {
                 display: block;
@@ -26,8 +28,10 @@ header {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+
                 li {
-                    margin-right: 8px;
+                    margin-right: 1rem;
+
                     &:last-child {
                         margin-right: 0;
                     }

@@ -1,0 +1,21 @@
+.full-page-banner-block {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .full-page-banner {
+        font-size: 130px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 1rem;
+            // padding: 30px;
+            // border-right: 1px solid var(--border-main-color);
+        }
+    }
+
+}

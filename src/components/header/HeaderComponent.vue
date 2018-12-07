@@ -2,15 +2,15 @@
   <header>
     <div class="container">
       <a href="#" class="logo">
-        <img src="./../../assets/logo.svg" alt="logo">
+        <img src="./../../assets/nav-logo.svg" alt="logo">
       </a>
       <nav>
         <ul>
           <li>
-            <router-link to="/">Home</router-link>|
+            <router-link to="/">HOME</router-link>
           </li>
           <li>
-            <router-link to="/contact">Contact</router-link>
+            <router-link to="/contact">CONTACTO</router-link>
           </li>
         </ul>
       </nav>
