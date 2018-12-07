@@ -2,7 +2,7 @@
   <header>
     <div class="container">
       <a href="#" class="logo">
-        <img src="./../../assets/logo.svg" alt>
+        <img src="./../../assets/logo.svg" alt="logo">
       </a>
       <nav>
         <ul>
