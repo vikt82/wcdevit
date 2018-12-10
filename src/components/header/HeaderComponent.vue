@@ -1,16 +1,13 @@
 <template>
   <header>
     <div class="container">
-      <a href="#" class="logo">
+      <router-link to="/" tag="a" class="logo">
         <img src="./../../assets/nav-logo.svg" alt="logo">
-      </a>
+      </router-link>
       <nav>
         <ul>
-          <li>
-            <router-link to="/">HOME</router-link>
-          </li>
-          <li>
-            <router-link to="/contact">CONTACTO</router-link>
+          <li v-for="(item, i) in menuItems" :key="`menuItems${i}`">
+            <router-link tag="a" :to="item.route">{{item.title}}</router-link>
           </li>
         </ul>
       </nav>
@@ -20,7 +17,24 @@
 
 <script>
 export default {
-  name: "app-header"
+  name: "app-header",
+  data: function() {
+    return {};
+  },
+  computed: {
+    menuItems() {
+      return [
+        {
+          title: "Home",
+          route: "/"
+        },
+        {
+          title: "contacto",
+          route: "/contact"
+        },
+      ];
+    }
+  }
 };
 </script>
 

@@ -1,13 +1,20 @@
 .full-page-banner-block {
+    position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    // background: linear-gradient(126.52deg, #EEEEEF 0%, #FEFEFE 100%);
+    // background: linear-gradient(233.48deg, #DFDFF4 0%, #FEFEFE 100%);
+    background: linear-gradient(126.52deg, rgba(223, 223, 244, 0.5) 0%, rgba(254, 254, 254, 0.5) 100%);
+
+
 
     .full-page-banner {
-        font-size: 130px;
-        font-weight: bold;
-        text-align: center;
+        // font-size: 130px;
+        // font-weight: bold;
+        // text-align: center;
         display: flex;
         align-items: center;
 
@@ -15,7 +22,27 @@
             margin-right: 1rem;
             // padding: 30px;
             // border-right: 1px solid var(--border-main-color);
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
 
+    .logo-title {}
+    .title-logo-text {
+        width: 50rem;
+        margin-right: 0;
+    }
+
+    .scroll-icon {
+        position: absolute;
+        bottom: 1.38rem;
+        width: 20px;
+        img {
+            display: block;
+            width: 100%;
+            opacity: 0.3            щзфсшенЖ 0&3*
+;
+        }
+    }
 }

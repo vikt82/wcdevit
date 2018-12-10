@@ -4,6 +4,8 @@ header {
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .13);
     position: fixed;
     width: 100%;
+    z-index: 10;
+    // display: none;
 
     .container {
         padding: 10px 0;
@@ -37,6 +39,23 @@ header {
                     }
                 }
             }
+        }
+    }
+}
+
+nav {
+    // padding: 30px;
+
+    a {
+        font-weight: bold;
+        color: #2c3e50;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: capitalize;
+
+        &.router-link-exact-active {
+            // color: #42b983;
+            color: #CC8FC2;
         }
     }
 }
