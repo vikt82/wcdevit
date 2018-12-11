@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import AppFpb from "./../components/full-page-banner/fullPageBannerComponent";
-import AppGallery from "./../components/gallery/galleryComponent";
+import AppFpb from "./../components/full-page-banner/fullPageBannerComponent"
+import AppGallery from "./../components/gallery/galleryComponent"
 
 export default {
   name: "app-home",

@@ -1,5 +1,5 @@
 <template>
-  <transition name="fade-">
+  <transition name="fade">
     <div>
       <div class="container">
         <h1>Contact</h1>

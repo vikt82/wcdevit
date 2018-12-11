@@ -10,18 +10,48 @@ div {
     // justify-content: space-between;
     flex-wrap: wrap;
     padding: 0; margin: 0;
-    .ddd {
+    .item-gallery {
       // flex: 0 0 calc(100% / 4);
-      width: calc(100% / 4 - 1.38rem);
-      margin-right: 1.38rem;
+      width: calc(100% / 4);
+      // margin-right: 1.38rem;
       padding: 0;
       margin: 0;
       max-height: 400px;
       overflow: hidden;
+      position: relative;
+      .wrapper-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &::before {
+          content: '';
+          background: linear-gradient(225deg, #FBA8D5 0%, #CC8FC2 100%);
+          opacity: 0.5;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+        }
+
+        h3 {
+          max-width: 90%;
+          color: #fff;
+          z-index: 1;
+          text-align: center;
+        }
+        
+      }
     }
     img {
       display: block;
       width: 100%;
+      // background-blend-mode: overlay;
     }
   }
 }

@@ -1,13 +1,16 @@
 <template>
   <div>
-    <div class="container-">
+    <div class="container">
       <h1>{{titleBlock}}</h1>
-      <div class="flex">
-        <div v-for="image in images" :key="image.id" class="ddd">
-          <img :src="image.imgSrc" :alt="image.imgAlt">
+    </div>
+    <div class="flex">
+      <div v-for="(item, index) in gBlock" :key="index" class="item-gallery">
+        <img :src="getPic(index)" :alt="item.imgAlt">
+        <div class="wrapper-item">
+          <font-awesome-icon icon="user-secret" />
+          <h3>{{item.titleItem}}</h3>
         </div>
       </div>
-      <p style="text-align: center;margin-top: 20px;">{{text}}</p>
     </div>
   </div>
 </template>
@@ -15,20 +18,38 @@
 <script>
 export default {
   name: "app-gallery",
-  data: function () {
+  data: function() {
     return {
-      titleBlock: 'Gallery',
-      text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et accusantium a mollitia molestias praesentium voluptatum possimus, dicta assumenda veritatis, ut totam in provident reprehenderit repellendus placeat voluptatibus eaque quasi ipsum!',
-      images: [
+      titleBlock: "Gallery",
+
+      gBlock: [
         {
-          'imgSrc': '../../assets/assets/g1.jpg',
-          'imgAlt': 'comp'
+          imgSrc: "g1.jpg",
+          imgAlt: "alt-1",
+          titleItem: 'Ipsum dolor.',
+          titleIcon: 'fas fa-address-card'
         },
         {
-          'imgSrc': './../../assets/g2.jpg',
-          'imgAlt': 'comp'
+          imgSrc: "g2.jpg",
+          imgAlt: "alt-2",
+          titleItem: 'Sit amet.'
+        },
+        {
+          imgSrc: "g1.jpg",
+          imgAlt: "alt-3",
+          titleItem: ' Consectetur.'
+        },
+        {
+          imgSrc: "g2.jpg",
+          imgAlt: "alt-4",
+          titleItem: 'Adipisicing.'
         }
       ]
+    };
+  },
+  methods: {
+    getPic(index) {
+      return require("@/assets/" + this.gBlock[index].imgSrc);
     }
   }
 };
