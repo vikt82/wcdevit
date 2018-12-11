@@ -24,6 +24,9 @@ body {
     background-color: var(--body-bg);
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     color: var(--text-main-color);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
 }
 
 .page {
@@ -36,6 +39,8 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 main {

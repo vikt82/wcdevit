@@ -1,15 +1,16 @@
 .full-page-banner-block {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     // background: linear-gradient(126.52deg, #EEEEEF 0%, #FEFEFE 100%);
     // background: linear-gradient(233.48deg, #DFDFF4 0%, #FEFEFE 100%);
     background: linear-gradient(126.52deg, rgba(223, 223, 244, 0.5) 0%, rgba(254, 254, 254, 0.5) 100%);
 
-
+    .container {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
     .full-page-banner {
         // font-size: 130px;
@@ -18,23 +19,16 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        max-width: 100%;
 
-        img {
-            margin-right: 1rem;
-            // padding: 30px;
-            // border-right: 1px solid var(--border-main-color);
-            &:last-child {
-                margin-right: 0;
-            }
+        svg {
+            display: block;
+            width: 100%;
         }
     }
 
     .logo-title {
         // border: ` solid #000;
-    }
-    .title-logo-text {
-        width: 50rem;
-        margin-right: 0;
     }
 
     .scroll-icon {
