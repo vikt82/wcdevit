@@ -21,34 +21,11 @@ export default {
       text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et accusantium a mollitia molestias praesentium voluptatum possimus, dicta assumenda veritatis, ut totam in provident reprehenderit repellendus placeat voluptatibus eaque quasi ipsum!',
       images: [
         {
-          'imgSrc': 'https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+          'imgSrc': '../../assets/assets/g1.jpg',
           'imgAlt': 'comp'
         },
         {
-          'imgSrc': 'https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
-          'imgAlt': 'comp'
-        },
-        {
-          'imgSrc': 'https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
-          'imgAlt': 'comp'
-        },{
-          'imgSrc': 'https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
-          'imgAlt': 'comp'
-        }
-        ,{
-          'imgSrc': 'https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
-          'imgAlt': 'comp'
-        },
-        {
-          'imgSrc': 'https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
-          'imgAlt': 'comp'
-        },
-        {
-          'imgSrc': 'https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
-          'imgAlt': 'comp'
-        },
-        {
-          'imgSrc': 'https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+          'imgSrc': './../../assets/g2.jpg',
           'imgAlt': 'comp'
         }
       ]

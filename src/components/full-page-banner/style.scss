@@ -17,6 +17,7 @@
         // text-align: center;
         display: flex;
         align-items: center;
+        justify-content: center;
 
         img {
             margin-right: 1rem;
@@ -28,7 +29,9 @@
         }
     }
 
-    .logo-title {}
+    .logo-title {
+        // border: ` solid #000;
+    }
     .title-logo-text {
         width: 50rem;
         margin-right: 0;
@@ -41,8 +44,17 @@
         img {
             display: block;
             width: 100%;
-            opacity: 0.3            щзфсшенЖ 0&3*
-;
+            opacity: 0.3;
         }
     }
+}
+
+/* #i-letter */
+.full-page-banner {
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+#i-letter {
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
 }
