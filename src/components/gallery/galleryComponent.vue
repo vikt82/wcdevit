@@ -7,7 +7,7 @@
       <div v-for="(item, index) in gBlock" :key="index" class="item-gallery">
         <img :src="getPic(index)" :alt="item.imgAlt">
         <div class="wrapper-item">
-          <font-awesome-icon icon="user-secret" />
+          <i class="fab fa-acquisitions-incorporated"></i>
           <h3>{{item.titleItem}}</h3>
         </div>
       </div>
