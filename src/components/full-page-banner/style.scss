@@ -27,14 +27,14 @@
         }
     }
 
-    .logo-title {
-        // border: ` solid #000;
-    }
+    .logo-title {}
 
     .scroll-icon {
         position: absolute;
         bottom: 1.38rem;
         width: 20px;
+        left: 50%;
+        margin-left: -10px;
         img {
             display: block;
             width: 100%;
