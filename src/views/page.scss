@@ -1,10 +1,10 @@
-.fade-enter-active,
-.fade-leave-active {
-    transition: all .25s ease-out;
+.page {
+    background-color: var(--body-bg);
 }
 
-.fade-enter,
-.fade-leave-to {
-    opacity: 0;
-    transform: translateY(100%);
+.ddd {
+    animation-duration: 1s;
+    // animation-delay: 2s;
+    animation-iteration-count: infinite;
+    background-color: #f1f1f1;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section class="fullPageBanner">
     <div class="full-page-banner-block">
       <!-- animated zoomIn delay-1s -->
       <div class="container">
@@ -122,7 +122,7 @@
         <img src="./../../assets/icon-scroll-down.svg" alt class="animated infinite pulse delay-1s">
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -131,6 +131,6 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 @import "./style.scss";
 </style>

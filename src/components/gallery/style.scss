@@ -1,7 +1,4 @@
-div {
-  // padding: 100px;
-  padding: 40px 0;
-  // background-color: #ff0000;
+.gallery {
   h1 {
     margin-bottom: 30px;
   }
@@ -13,7 +10,6 @@ div {
     padding-left: 0.69rem;
     padding-right: 0.69rem;
     .item-gallery {
-      // flex: 0 0 calc(100% / 4);
       width: calc(100% / 4 - 0.69rem);
       margin-right: 0.69rem;
       padding: 0;
@@ -34,7 +30,7 @@ div {
         &::before {
           content: '';
           background: linear-gradient(225deg, #FBA8D5 0%, #CC8FC2 100%);
-          opacity: 0.7;
+          opacity: 0.5;
           width: 100%;
           position: absolute;
           top: 0;

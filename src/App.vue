@@ -1,18 +1,14 @@
 <template>
   <div id="app">
-    <div class="page">
-      <app-header/>
-      <main>
-        <router-view/>
-      </main>
-      <app-footer/>
-    </div>
+    <app-header/>
+    <router-view/>
+    <app-footer/>
   </div>
 </template>
 
 <script>
-import AppHeader from "./components/header/HeaderComponent"
-import AppFooter from "./components/footer/FooterComponent"
+import AppHeader from "./components/header/HeaderComponent";
+import AppFooter from "./components/footer/FooterComponent";
 
 export default {
   name: "App",
