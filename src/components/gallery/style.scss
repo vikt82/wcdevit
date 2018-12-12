@@ -7,13 +7,15 @@ div {
   }
   .flex {
     display: flex;
-    // justify-content: space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0; margin: 0;
+    padding-left: 0.69rem;
+    padding-right: 0.69rem;
     .item-gallery {
       // flex: 0 0 calc(100% / 4);
-      width: calc(100% / 4);
-      // margin-right: 1.38rem;
+      width: calc(100% / 4 - 0.69rem);
+      margin-right: 0.69rem;
       padding: 0;
       margin: 0;
       max-height: 400px;
@@ -32,7 +34,7 @@ div {
         &::before {
           content: '';
           background: linear-gradient(225deg, #FBA8D5 0%, #CC8FC2 100%);
-          opacity: 0.5;
+          opacity: 0.7;
           width: 100%;
           position: absolute;
           top: 0;
