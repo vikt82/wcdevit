@@ -1,3 +1,86 @@
 .portfolio-block {
 
+  .portfolio-container {
+    // padding: 0 0.694rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2.4rem;
+  }
+
+  .portfolio-item {
+    overflow: hidden;
+    height: 400px;
+
+    figure {
+      margin: 0;
+      padding: 0;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(15, 15, 15, .3);
+        background: linear-gradient(225deg, #FBA8D5 0%, #CC8FC2 100%);
+        opacity: 0.4;
+        color: #fefefe;
+      }
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      min-height: 100%;
+      transition: all .25s ease;
+      filter: blur(0);
+      height: 400px;
+    }
+
+    &:hover {
+      &::after {
+        opacity: 1;
+      }
+
+      img {
+        filter: blur(2px);
+        transform: scale(1.2);
+      }
+    }
+
+    .case-studies {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(71, 69, 84, 0.7);
+      padding: 10px 30px;
+      width: 190px;
+      border-radius: 4px;
+      font-weight: 700;
+      text-decoration: none;
+      z-index: 1;
+      text-transform: uppercase;
+      text-align: center;
+
+      &::after {
+        content: "Case Studies";
+        color: #fefefe;
+        transition: all 0.3s ease;
+
+      }
+
+      &:hover {
+        background-color: rgba(71, 69, 84, 0.3);
+
+        &::after {
+          content: "view";
+          color: #fefefe;
+        }
+      }
+    }
+  }
+
 }

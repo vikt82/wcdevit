@@ -23,32 +23,74 @@ export default {
       title: "Services",
       serviceItems: [
         {
-          icon: "journal-whills",
+          icon: "envelope",
           text: "EMAIL MARKETING",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni."
+        },
+        {
+          icon: "thumbs-up",
+          text: "SOCIAL MEDIA",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
         },
         {
-          icon: "hands-helping",
-          text: "EMAIL MARKETING",
+          icon: "comment",
+          text: "PUBLICIDAD ONLINE",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
         },
         {
-          icon: "moon",
-          text: "EMAIL MARKETING",
+          icon: "edit",
+          text: "PENSAMIENTO ESTRATÉGICO",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
         },
         {
-          icon: "swatchbook",
-          text: "EMAIL MARKETING",
+          icon: "star",
+          text: "PERFORMANCE",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
         },
         {
-          icon: "syringe",
-          text: "EMAIL MARKETING",
+          icon: "user",
+          text: "CUSTOMER CARE",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
+        },
+        {
+          icon: "laptop-code",
+          text: "RESPONSIVE WEBSITES",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
+        },
+        {
+          icon: "tablet-alt",
+          text: "MOBILE APPS",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
+        },
+        {
+          icon: "user-friends",
+          text: "LEAD GENERATION",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
+        },
+        {
+          icon: "heart",
+          text: "FORTALECIMIENTO DE VÍNCULOS",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
+        },
+        {
+          icon: "lightbulb",
+          text: "CONTENIDO CREATIVO",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
+        },
+        {
+          icon: "microphone",
+          text: "ACTIVACIONES",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis unde exercitationem consectetur magni cumque repellendus dolore pariatur vero recusandae tempora."
         }
