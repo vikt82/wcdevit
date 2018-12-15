@@ -56,12 +56,10 @@ export default {
   },
   methods: {
     getPic(index) {
-      return require("@/assets/" + this.gBlock[index].imgSrc);
+      return require("@/assets/image/" + this.gBlock[index].imgSrc);
     }
   }
 };
 </script>
 
-<style scoped lang="scss">
-@import "./style.scss";
-</style>
+<style scoped lang="scss" src="./style.scss"></style>

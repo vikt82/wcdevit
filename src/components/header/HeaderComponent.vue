@@ -2,42 +2,22 @@
   <header>
     <div class="container">
       <router-link to="/" tag="a" class="logo">
-        <img src="./../../assets/nav-logo.svg" alt="logo">
+        <img src="./../../assets/image/nav-logo.svg" alt="logo">
       </router-link>
-      <nav>
-        <ul>
-          <li v-for="(item, i) in menuItems" :key="`menuItems${i}`">
-            <router-link tag="a" :to="item.route">{{item.title}}</router-link>
-          </li>
-        </ul>
-      </nav>
+      <app-navigation/>
     </div>
   </header>
 </template>
 
 <script>
+import AppNavigation from "./../navigation/navigationComponent"
+
 export default {
   name: "app-header",
-  data: function() {
-    return {};
-  },
-  computed: {
-    menuItems() {
-      return [
-        {
-          title: "Home",
-          route: "/"
-        },
-        {
-          title: "contacto",
-          route: "/contact"
-        },
-      ];
-    }
+  components: {
+    AppNavigation
   }
 };
 </script>
 
-<style scoped lang="scss">
-@import "./header.scss";
-</style>
+<style scoped lang="scss" src="./header.scss"></style>

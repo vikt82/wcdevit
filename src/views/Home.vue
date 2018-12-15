@@ -24,6 +24,4 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-@import "./page.scss";
-</style>
+<style scoped lang="scss" src="./page.scss"></style>

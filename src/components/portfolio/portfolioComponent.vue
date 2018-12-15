@@ -8,37 +8,37 @@
 
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/portfolio/1.jpg" alt>
+          <img src="./../../assets/image/portfolio/1.jpg" alt>
           <a href="" class="case-studies" data="Case Studies"></a>
         </figure>
       </div>
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/portfolio/2.jpg" alt>
+          <img src="./../../assets/image/portfolio/2.jpg" alt>
           <a href="" class="case-studies"></a>
         </figure>
       </div>
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/portfolio/3.jpg" alt>
+          <img src="./../../assets/image/portfolio/3.jpg" alt>
           <a href="" class="case-studies"></a>
         </figure>
       </div>
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/portfolio/4.jpg" alt>
+          <img src="./../../assets/image/portfolio/4.jpg" alt>
           <a href="" class="case-studies"></a>
         </figure>
       </div>
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/portfolio/5.jpg" alt>
+          <img src="./../../assets/image/portfolio/5.jpg" alt>
           <a href="" class="case-studies"></a>
         </figure>
       </div>
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/portfolio/6.jpg" alt>
+          <img src="./../../assets/image/portfolio/6.jpg" alt>
           <a href="" class="case-studies"></a>
         </figure>
       </div>

@@ -26,6 +26,4 @@ export default {
 
 
 
-<style lang="scss">
-@import "base.scss";
-</style>
+<style lang="scss" src="./main.scss"></style>

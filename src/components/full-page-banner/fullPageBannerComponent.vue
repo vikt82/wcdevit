@@ -119,7 +119,7 @@
       </h1>
       </div>
       <div class="scroll-icon animated zoomIn delay-1s">
-        <img src="./../../assets/icon-scroll-down.svg" alt class="animated infinite pulse delay-1s">
+        <img src="./../../assets/image/icon-scroll-down.svg" alt class="animated infinite pulse delay-1s">
       </div>
     </div>
   </section>
