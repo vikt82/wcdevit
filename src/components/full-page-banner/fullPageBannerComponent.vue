@@ -3,8 +3,9 @@
     <div class="full-page-banner-block">
       <!-- animated zoomIn delay-1s -->
       <div class="container">
-        <h1 class="full-page-banner animated fadeIn">
-        <svg
+        <div class="full-page-banner animated fadeIn">
+          <svg
+          id="main-banner"
           width="1074"
           height="145"
           viewBox="0 0 1074 145"
@@ -116,7 +117,7 @@
             </linearGradient>
           </defs>
         </svg>
-      </h1>
+        </div>
       </div>
       <div class="scroll-icon animated zoomIn delay-1s">
         <img src="./../../assets/image/icon-scroll-down.svg" alt class="animated infinite pulse delay-1s">

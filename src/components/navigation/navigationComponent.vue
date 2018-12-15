@@ -1,18 +1,35 @@
 <template>
-    <nav>
-        <ul>
-            <li v-for="(item, i) in menuItems" :key="`menuItems${i}`">
-                <router-link tag="a" :to="item.route">{{item.title}}</router-link>
-            </li>
-        </ul>
-    </nav>
+    <div class="nav">
+        <nav class="mobile">
+            <transition name="fade" mode="out-in">
+                <font-awesome-icon class="menu" icon="bars" v-if="!show" @click="show = !show"/>
+                <font-awesome-icon class="close" icon="times" v-else @click="show = !show"/>
+            </transition>
+            <transition name="fade">
+            <ul v-if="show">
+                <li v-for="(item, i) in menuItems" :key="`menuItems${i}`">
+                    <router-link tag="a" :to="item.route">{{item.title}}</router-link>
+                </li>
+            </ul>
+            </transition>
+        </nav>
+        <nav class="desctop">
+            <ul>
+                <li v-for="(item, i) in menuItems" :key="`menuItems${i}`">
+                    <router-link tag="a" :to="item.route">{{item.title}}</router-link>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </template>
 
 <script>
 export default {
     name: 'app-navigation',
     data: function() {
-        return {};
+        return {
+            show: false
+        };
     },
     computed: {
         menuItems() {

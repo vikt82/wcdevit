@@ -1,54 +1,39 @@
 .full-page-banner-block {
-    // background: linear-gradient(126.52deg, #EEEEEF 0%, #FEFEFE 100%);
-    // background: linear-gradient(233.48deg, #DFDFF4 0%, #FEFEFE 100%);
     background: linear-gradient(126.52deg, rgba(223, 223, 244, 0.5) 0%, rgba(254, 254, 254, 0.5) 100%);
 
-    .container {
-        position: relative;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    position: relative;
 
     .full-page-banner {
-        // font-size: 130px;
-        // font-weight: bold;
-        // text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-
+        animation-duration: 1s;
+        animation-delay: 0.2s;
         svg {
+            max-width: 100%;
             display: block;
-            width: 100%;
+        }
+        
+        #i-letter {
+            animation-duration: 1.5s;
+            animation-delay: 0.5s;
         }
     }
 
-    .logo-title {}
 
     .scroll-icon {
-        position: absolute;
-        bottom: 1.38rem;
         width: 20px;
-        left: 50%;
-        margin-left: -10px;
+
+        position: absolute;
+        bottom: 30px;
+        
         img {
             display: block;
             width: 100%;
             opacity: 0.3;
         }
     }
-}
-
-/* #i-letter */
-.full-page-banner {
-    animation-duration: 1s;
-    animation-delay: 0.2s;
-}
-#i-letter {
-    animation-duration: 1.5s;
-    animation-delay: 0.5s;
 }
