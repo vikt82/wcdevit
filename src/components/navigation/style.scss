@@ -1,7 +1,7 @@
 // Navigation
     $color-link: #2c3e50;
     $color-link-active: #CC8FC2;
-    $fz-nav-link: 14;
+    $fz-nav-link: 0.85em;
     $mobile-bg: #fefefe;
     
 .nav {
@@ -52,7 +52,7 @@
                         a {
                             font-weight: 600;
                             color: $color-link;
-                            font-size: $fz-nav-link / 1440 * 100em;
+                            font-size: $fz-nav-link;
                             text-decoration: none;
                             text-transform: capitalize;
                             display: block;
@@ -88,7 +88,7 @@
                         a {
                             font-weight: 600;
                             color: $color-link;
-                            font-size: $fz-nav-link / 1440 * 100em;
+                            font-size: $fz-nav-link;
                             text-decoration: none;
                             text-transform: capitalize;
                     
