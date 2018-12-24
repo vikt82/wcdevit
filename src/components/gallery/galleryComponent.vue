@@ -4,7 +4,7 @@
       <h2 class="title-section">{{titleBlock}}</h2>
     </div>
 
-    <div class="flex">
+    <div class="grid-container">
       <div v-for="(item, index) in gBlock" :key="index" class="item-gallery">
         <img :src="getPic(index)" :alt="item.imgAlt">
         <div class="wrapper-item">

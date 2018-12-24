@@ -8,38 +8,32 @@
 
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/image/portfolio/1.jpg" alt>
-          <a href="" class="case-studies" data="Case Studies"></a>
+          <img src="./../../assets/image/portfolio/exim_flowers.png" alt>
+          <a href="https://exim.flowers" class="case-studies" data="Case Studies" target="_blank"></a>
         </figure>
       </div>
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/image/portfolio/2.jpg" alt>
-          <a href="" class="case-studies"></a>
+          <img src="./../../assets/image/portfolio/adoptanagent.png" alt>
+          <a href="https://www.adoptanagent.com" class="case-studies" target="_blank"></a>
         </figure>
       </div>
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/image/portfolio/3.jpg" alt>
-          <a href="" class="case-studies"></a>
+          <img src="./../../assets/image/portfolio/cargo_flowers.png" alt>
+          <a href="https://cargo.flowers" class="case-studies" target="_blank"></a>
         </figure>
       </div>
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/image/portfolio/4.jpg" alt>
-          <a href="" class="case-studies"></a>
+          <img src="./../../assets/image/portfolio/accuscore.png" alt>
+          <a href="http://accuscore.com" class="case-studies" target="_blank"></a>
         </figure>
       </div>
       <div class="portfolio-item">
         <figure>
-          <img src="./../../assets/image/portfolio/5.jpg" alt>
-          <a href="" class="case-studies"></a>
-        </figure>
-      </div>
-      <div class="portfolio-item">
-        <figure>
-          <img src="./../../assets/image/portfolio/6.jpg" alt>
-          <a href="" class="case-studies"></a>
+          <img src="./../../assets/image/portfolio/vessage.png" alt>
+          <a href="http://vessage.com" class="case-studies" target="_blank"></a>
         </figure>
       </div>
 
