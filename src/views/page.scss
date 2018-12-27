@@ -10,7 +10,7 @@
 // }
 
 main {
-  min-height: 100vh;
+  min-height: calc(100vh - 146px);
 }
 
 .contact-page {
@@ -113,6 +113,42 @@ main {
         color: rgba(71, 69, 84, 0.7);
       }
       
+    }
+  }
+}
+
+.oops {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  min-height: calc(100vh - 146px);
+
+  h1 {
+    color: rgba(71, 69, 84, 1);
+    font-weight: bold;
+    font-size: calc(200 / 1440 *100em);
+    border-bottom: 4px solid rgba(71, 69, 84, 1);
+  }
+  h3 {
+    font-size: calc(40 / 1440 *100em);
+    color: rgba(71, 69, 84, .7);
+    margin-top: calc(30 / 1440 * 100rem);
+  }
+  .back-link {
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: calc(30 / 1440 * 100rem);
+    color: rgba(71, 69, 84, 1);
+    transition: all 0.3s ease;
+    border: 1px dashed rgba(71, 69, 84, 1);
+    padding: 10px;
+    box-sizing: border-box;
+    &:hover {
+      color: rgba(71, 69, 84, .7);
     }
   }
 }
