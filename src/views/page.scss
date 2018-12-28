@@ -30,6 +30,12 @@ main {
       grid-template-columns: repeat(2, 1fr);
       grid-column-gap: calc(20 / 1440 * 100em);
 
+      @media (max-width: 500px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: calc(20 / 1440 * 100em);
+      }
+
       .input-left,
       .input-right {
         display: flex;
@@ -130,11 +136,19 @@ main {
     font-weight: bold;
     font-size: calc(200 / 1440 *100em);
     border-bottom: 4px solid rgba(71, 69, 84, 1);
+    
+    @media (min-width: 300px) and (max-width: 768px) {
+      font-size: calc(100 / 1440 *100em);
+    }
+
   }
   h3 {
     font-size: calc(40 / 1440 *100em);
     color: rgba(71, 69, 84, .7);
     margin-top: calc(30 / 1440 * 100rem);
+    @media (min-width: 300px) and (max-width: 768px) {
+      font-size: calc(30 / 1440 *100em);
+    }
   }
   .back-link {
     font-size: 20px;
